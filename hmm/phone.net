@@ -1,0 +1,282 @@
+VERSION=1.0
+N=87   L=193  
+I=0    W=!NULL               
+I=1    W=!NULL               
+I=2    W=MARKER              
+I=3    W=bg_dark_0           
+I=4    W=bg_dark_0_1         
+I=5    W=bg_dark_0_2         
+I=6    W=bg_dark_0_3         
+I=7    W=bg_dark_0_4         
+I=8    W=bg_dark_0_5         
+I=9    W=MARKER              
+I=10   W=bg_white_0          
+I=11   W=bg_white_0_0        
+I=12   W=bg_white_0_1        
+I=13   W=bg_white_0_2        
+I=14   W=bg_white_0_3        
+I=15   W=bg_white_0_4        
+I=16   W=bg_white_0_5        
+I=17   W=MARKER              
+I=18   W=bg_dark_0           
+I=19   W=bg_dark_0_1         
+I=20   W=bg_dark_0_2         
+I=21   W=bg_dark_0_3         
+I=22   W=bg_dark_0_4         
+I=23   W=bg_dark_0_5         
+I=24   W=MARKER              
+I=25   W=bg_dark_0           
+I=26   W=bg_dark_0_1         
+I=27   W=bg_dark_0_2         
+I=28   W=bg_dark_0_3         
+I=29   W=bg_dark_0_4         
+I=30   W=bg_dark_0_5         
+I=31   W=MARKER              
+I=32   W=bg_white_0          
+I=33   W=bg_white_0_0        
+I=34   W=bg_white_0_1        
+I=35   W=bg_white_0_2        
+I=36   W=bg_white_0_3        
+I=37   W=bg_white_0_4        
+I=38   W=bg_white_0_5        
+I=39   W=MARKER              
+I=40   W=bg_red_0            
+I=41   W=bg_red_0_0          
+I=42   W=bg_red_0_1          
+I=43   W=bg_red_0_2          
+I=44   W=bg_red_0_3          
+I=45   W=bg_red_0_4          
+I=46   W=bg_red_0_5          
+I=47   W=bg_board            
+I=48   W=fp_key              
+I=49   W=fp_screen           
+I=50   W=fp_logo             
+I=51   W=bg_board            
+I=52   W=bg_board_0          
+I=53   W=bg_board_1          
+I=54   W=bg_board_2          
+I=55   W=bg_board_3          
+I=56   W=bg_board_4          
+I=57   W=bg_board_5          
+I=58   W=MARKER              
+I=59   W=fp_key_0            
+I=60   W=fp_key_1            
+I=61   W=fp_key_2            
+I=62   W=fp_key_3            
+I=63   W=fp_key_4            
+I=64   W=fp_logo_5           
+I=65   W=MARKER              
+I=66   W=fp_screen_0         
+I=67   W=fp_screen_1         
+I=68   W=fp_screen_2         
+I=69   W=fp_screen_3         
+I=70   W=fp_screen_4         
+I=71   W=fp_screen_5         
+I=72   W=MARKER              
+I=73   W=fp_logo_0           
+I=74   W=fp_logo_1           
+I=75   W=fp_logo_2           
+I=76   W=fp_logo_3           
+I=77   W=fp_logo_4           
+I=78   W=fp_logo_5           
+I=79   W=MARKER              
+I=80   W=bg_board_0          
+I=81   W=bg_board_1          
+I=82   W=bg_board_2          
+I=83   W=bg_board_3          
+I=84   W=bg_board_4          
+I=85   W=bg_board_5          
+I=86   W=MARKER              
+J=0     S=2    E=1    
+J=1     S=9    E=1    
+J=2     S=24   E=1    
+J=3     S=47   E=1    
+J=4     S=48   E=1    
+J=5     S=58   E=1    
+J=6     S=65   E=1    
+J=7     S=3    E=2    
+J=8     S=8    E=2    
+J=9     S=2    E=3    
+J=10    S=3    E=3    
+J=11    S=9    E=3    
+J=12    S=2    E=4    
+J=13    S=4    E=4    
+J=14    S=9    E=4    
+J=15    S=4    E=5    
+J=16    S=5    E=5    
+J=17    S=5    E=6    
+J=18    S=6    E=6    
+J=19    S=6    E=7    
+J=20    S=7    E=7    
+J=21    S=7    E=8    
+J=22    S=8    E=8    
+J=23    S=10   E=9    
+J=24    S=16   E=9    
+J=25    S=0    E=10   
+J=26    S=9    E=10   
+J=27    S=10   E=10   
+J=28    S=17   E=10   
+J=29    S=0    E=11   
+J=30    S=9    E=11   
+J=31    S=11   E=11   
+J=32    S=17   E=11   
+J=33    S=11   E=12   
+J=34    S=12   E=12   
+J=35    S=12   E=13   
+J=36    S=13   E=13   
+J=37    S=13   E=14   
+J=38    S=14   E=14   
+J=39    S=14   E=15   
+J=40    S=15   E=15   
+J=41    S=15   E=16   
+J=42    S=16   E=16   
+J=43    S=18   E=17   
+J=44    S=23   E=17   
+J=45    S=0    E=18   
+J=46    S=17   E=18   
+J=47    S=18   E=18   
+J=48    S=0    E=19   
+J=49    S=17   E=19   
+J=50    S=19   E=19   
+J=51    S=19   E=20   
+J=52    S=20   E=20   
+J=53    S=20   E=21   
+J=54    S=21   E=21   
+J=55    S=21   E=22   
+J=56    S=22   E=22   
+J=57    S=22   E=23   
+J=58    S=23   E=23   
+J=59    S=25   E=24   
+J=60    S=30   E=24   
+J=61    S=24   E=25   
+J=62    S=25   E=25   
+J=63    S=31   E=25   
+J=64    S=24   E=26   
+J=65    S=26   E=26   
+J=66    S=31   E=26   
+J=67    S=26   E=27   
+J=68    S=27   E=27   
+J=69    S=27   E=28   
+J=70    S=28   E=28   
+J=71    S=28   E=29   
+J=72    S=29   E=29   
+J=73    S=29   E=30   
+J=74    S=30   E=30   
+J=75    S=32   E=31   
+J=76    S=38   E=31   
+J=77    S=31   E=32   
+J=78    S=32   E=32   
+J=79    S=39   E=32   
+J=80    S=31   E=33   
+J=81    S=33   E=33   
+J=82    S=39   E=33   
+J=83    S=33   E=34   
+J=84    S=34   E=34   
+J=85    S=34   E=35   
+J=86    S=35   E=35   
+J=87    S=35   E=36   
+J=88    S=36   E=36   
+J=89    S=36   E=37   
+J=90    S=37   E=37   
+J=91    S=37   E=38   
+J=92    S=38   E=38   
+J=93    S=40   E=39   
+J=94    S=46   E=39   
+J=95    S=0    E=40   
+J=96    S=39   E=40   
+J=97    S=40   E=40   
+J=98    S=0    E=41   
+J=99    S=39   E=41   
+J=100   S=41   E=41   
+J=101   S=41   E=42   
+J=102   S=42   E=42   
+J=103   S=42   E=43   
+J=104   S=43   E=43   
+J=105   S=43   E=44   
+J=106   S=44   E=44   
+J=107   S=44   E=45   
+J=108   S=45   E=45   
+J=109   S=45   E=46   
+J=110   S=46   E=46   
+J=111   S=47   E=47   
+J=112   S=48   E=47   
+J=113   S=48   E=48   
+J=114   S=49   E=48   
+J=115   S=49   E=49   
+J=116   S=50   E=49   
+J=117   S=0    E=50   
+J=118   S=50   E=50   
+J=119   S=51   E=50   
+J=120   S=0    E=51   
+J=121   S=51   E=51   
+J=122   S=52   E=52   
+J=123   S=58   E=52   
+J=124   S=65   E=52   
+J=125   S=52   E=53   
+J=126   S=53   E=53   
+J=127   S=53   E=54   
+J=128   S=54   E=54   
+J=129   S=54   E=55   
+J=130   S=55   E=55   
+J=131   S=55   E=56   
+J=132   S=56   E=56   
+J=133   S=56   E=57   
+J=134   S=57   E=57   
+J=135   S=57   E=58   
+J=136   S=59   E=59   
+J=137   S=65   E=59   
+J=138   S=72   E=59   
+J=139   S=59   E=60   
+J=140   S=60   E=60   
+J=141   S=60   E=61   
+J=142   S=61   E=61   
+J=143   S=61   E=62   
+J=144   S=62   E=62   
+J=145   S=62   E=63   
+J=146   S=63   E=63   
+J=147   S=63   E=64   
+J=148   S=64   E=64   
+J=149   S=64   E=65   
+J=150   S=66   E=66   
+J=151   S=72   E=66   
+J=152   S=79   E=66   
+J=153   S=66   E=67   
+J=154   S=67   E=67   
+J=155   S=67   E=68   
+J=156   S=68   E=68   
+J=157   S=68   E=69   
+J=158   S=69   E=69   
+J=159   S=69   E=70   
+J=160   S=70   E=70   
+J=161   S=70   E=71   
+J=162   S=71   E=71   
+J=163   S=71   E=72   
+J=164   S=0    E=73   
+J=165   S=73   E=73   
+J=166   S=79   E=73   
+J=167   S=86   E=73   
+J=168   S=73   E=74   
+J=169   S=74   E=74   
+J=170   S=74   E=75   
+J=171   S=75   E=75   
+J=172   S=75   E=76   
+J=173   S=76   E=76   
+J=174   S=76   E=77   
+J=175   S=77   E=77   
+J=176   S=77   E=78   
+J=177   S=78   E=78   
+J=178   S=78   E=79   
+J=179   S=0    E=80   
+J=180   S=80   E=80   
+J=181   S=86   E=80   
+J=182   S=80   E=81   
+J=183   S=81   E=81   
+J=184   S=81   E=82   
+J=185   S=82   E=82   
+J=186   S=82   E=83   
+J=187   S=83   E=83   
+J=188   S=83   E=84   
+J=189   S=84   E=84   
+J=190   S=84   E=85   
+J=191   S=85   E=85   
+J=192   S=85   E=86   

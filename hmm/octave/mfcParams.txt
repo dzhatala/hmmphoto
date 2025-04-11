@@ -1,0 +1,6 @@
+%HTK PARAMS
+[sampPeriod,sampSize,parmKind]=mfcParams
+sampPeriod = 100000*1E-7
+sampSize = size_MFCCS(2)
+parmKind = 6 % MFCC six
+return

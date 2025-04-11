@@ -1,0 +1,2 @@
+addpath(".")
+[sampPeriod,parmKind]=mfcParams

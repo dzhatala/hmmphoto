@@ -20,9 +20,7 @@ A. HMM
 		see: HERest_cyg.sh
 	
  -recognizing one single image full image:
-	to recognize single image all above steps must be done until  
-	the trained model already constructed
-	
+	recognize_single.sh
  -recognize all
  -performance all
 
