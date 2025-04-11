@@ -27,6 +27,7 @@ octave=/cygdrive/c/rps/Octave-9.4.0/mingw64/bin/octave.exe
 mkdir -p ${tmp}
 smaller_f="${tmp}/280x${filename_with_ext}"
 smaller_mfc="${tmp}/280x${filename}.mfc"
+smaller_rec="${tmp}/280x${filename}.rec"
 # echo $smaller_mfc
 # exit
 cmd="cp ${full_f} ${smaller_f}"
@@ -41,3 +42,6 @@ mkdir -p tmp
 ${octave} octave\\img2mfcc.m ${smaller_f} .\\tmp
 echo $smaller_mfc > tmp/test.lst
 ./2d_class_test_cyg.sh tmp/test.lst tmp models/hmm30
+cmd="./rec2class.sh ${smaller_rec}"
+echo $cmd ;eval $cmd
+# do some work

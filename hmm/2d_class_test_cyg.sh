@@ -1,8 +1,8 @@
 #usage 2d_class_test_cyg.sh list_file out_dir hmm_dir
 #hmm_dir must contain hmmdefs
+SECONDS=0
 source env_cygwin.sh
-
-dir=hmm30 #herest
+dir=hmm30 #herest output
 phonems_2d=phonems_2d_class_test.lst
 dict=new_class.dict
 ftest=tmp_genobs/${project}_tb_2d_class_test.lst
@@ -47,6 +47,7 @@ marker="-H models/marker/MARKER"
 
 multi_level="-m"
 trace="-T 1"
+trace="-T 0"
 
 
 #output to single file instead of directory
@@ -62,15 +63,14 @@ cmd="$HTKTOOLS_DIR/HVite  ${multi_level} -l ${outdir} ${single_mlf} ${trace} -w 
 echo $cmd ; echo "Enter [ctrl c]" ; read
 eval $cmd
 
-echo $date1
-date
-echo $cmd;
 
 #omit -i so individual label will be created
 mkdir -p ${outdir}		#
 cmd="$HTKTOOLS_DIR/HVite ${multi_level} -l ${outdir}  -y recph ${trace} -w phone.net -C configtrain.txt  -H $dir/hmmdefs \
  ${marker} -o S -S $ftest $dict ${phonems_2d}"
 # echo $cmd ; eval $cmd
+duration=$SECONDS
+echo "time: $((duration / 60)) minutes and $((duration % 60)) s."
 
 
 
