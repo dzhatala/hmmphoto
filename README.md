@@ -18,6 +18,9 @@ A. HMM
 		see : HRest_cyg.sh
 	Embedded/join training: 
 		see: HERest_cyg.sh
+	final model : 
+		models/hmm30/hmmdefs
+		models/marker
 	
  -recognizing one single image full image:
 	recognize_single.sh
