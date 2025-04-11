@@ -1,0 +1,61 @@
+{
+  "version": "5.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bg_red_0",
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          2159.0,
+          0.0
+        ]
+      ],
+      "group_id": 0,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "bg_white_0",
+      "points": [
+        [
+          0.0,
+          184.28571428571436
+        ],
+        [
+          2159.0,
+          177.1428571428572
+        ]
+      ],
+      "group_id": 1,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "bg_dark_0",
+      "points": [
+        [
+          0.0,
+          3134.285714285714
+        ],
+        [
+          2140.714285714286,
+          3069.9999999999995
+        ]
+      ],
+      "group_id": 2,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    }
+  ],
+  "imagePath": "..\\..\\answer_sheet\\IMG-20240101-WA0052.jpeg",
+  "imageData": null,
+  "imageHeight": 3840,
+  "imageWidth": 2160
+}

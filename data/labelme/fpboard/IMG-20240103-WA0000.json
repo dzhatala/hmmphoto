@@ -1,0 +1,95 @@
+{
+  "version": "5.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bg_board",
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          2147.8571428571427,
+          27.142857142857224
+        ]
+      ],
+      "group_id": 0,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "fp_logo",
+      "points": [
+        [
+          26.42857142857156,
+          641.4285714285714
+        ],
+        [
+          2147.8571428571427,
+          620.0
+        ]
+      ],
+      "group_id": 1,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "fp_screen",
+      "points": [
+        [
+          19.285714285714675,
+          1184.2857142857142
+        ],
+        [
+          2159.0,
+          1191.4180952380952
+        ]
+      ],
+      "group_id": 2,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "fp_key",
+      "points": [
+        [
+          12.142857142857338,
+          2234.285714285714
+        ],
+        [
+          2159.0,
+          2269.595864661654
+        ]
+      ],
+      "group_id": 3,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "bg_board",
+      "points": [
+        [
+          26.42857142857156,
+          3505.7142857142853
+        ],
+        [
+          2147.8571428571427,
+          3491.428571428571
+        ]
+      ],
+      "group_id": 0,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    }
+  ],
+  "imagePath": "..\\fpboard\\IMG-20240103-WA0000.jpeg",
+  "imageData": null,
+  "imageHeight": 3840,
+  "imageWidth": 2160
+}

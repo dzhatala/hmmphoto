@@ -1,0 +1,95 @@
+{
+  "version": "5.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bg_board",
+      "points": [
+        [
+          0.0,
+          19.99999999999993
+        ],
+        [
+          0.0,
+          19.99999999999993
+        ]
+      ],
+      "group_id": 0,
+      "description": "",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "fp_logo",
+      "points": [
+        [
+          11.25,
+          794.9999999999999
+        ],
+        [
+          2142.5,
+          801.2499999999999
+        ]
+      ],
+      "group_id": 1,
+      "description": "",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "fp_screen",
+      "points": [
+        [
+          11.25,
+          1201.25
+        ],
+        [
+          2142.5,
+          1213.75
+        ]
+      ],
+      "group_id": 2,
+      "description": "",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "fp_key",
+      "points": [
+        [
+          30.0,
+          2188.75
+        ],
+        [
+          2111.25,
+          2220.0
+        ]
+      ],
+      "group_id": 3,
+      "description": "",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "bg_board",
+      "points": [
+        [
+          17.5,
+          3420.0
+        ],
+        [
+          2142.5,
+          3445.0
+        ]
+      ],
+      "group_id": 0,
+      "description": "",
+      "shape_type": "line",
+      "flags": {}
+    }
+  ],
+  "imagePath": "..\\fpboard\\IMG-20240102-WA0002.jpeg",
+  "imageData": null,
+  "imageHeight": 3840,
+  "imageWidth": 2160
+}

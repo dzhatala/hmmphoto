@@ -1,0 +1,95 @@
+{
+  "version": "5.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bg_board",
+      "points": [
+        [
+          0.0,
+          1.249999999999929
+        ],
+        [
+          2136.25,
+          19.99999999999993
+        ]
+      ],
+      "group_id": 0,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "fp_logo",
+      "points": [
+        [
+          23.75,
+          751.2499999999999
+        ],
+        [
+          2159.0,
+          755.7142857142857
+        ]
+      ],
+      "group_id": 1,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "fp_screen",
+      "points": [
+        [
+          11.25,
+          1226.25
+        ],
+        [
+          2148.75,
+          1232.5
+        ]
+      ],
+      "group_id": 2,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "fp_key",
+      "points": [
+        [
+          5.0,
+          2251.25
+        ],
+        [
+          2148.75,
+          2276.25
+        ]
+      ],
+      "group_id": 3,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    },
+    {
+      "label": "bg_board",
+      "points": [
+        [
+          30.0,
+          3557.5
+        ],
+        [
+          2142.5,
+          3613.75
+        ]
+      ],
+      "group_id": 0,
+      "description": "row_start",
+      "shape_type": "line",
+      "flags": {}
+    }
+  ],
+  "imagePath": "..\\..\\fpboard\\IMG-20240102-WA0000.jpeg",
+  "imageData": null,
+  "imageHeight": 3840,
+  "imageWidth": 2160
+}
