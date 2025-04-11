@@ -1,1 +1,41 @@
-# hmmphoto
+DATA
+ /data contain original full size taken photos
+	/data/fp_board
+	/data/answer_sheet
+
+ /data/smaller : converted into 280 width
+	-see resize_image.sh (cygwin shell examples)
+ /data/labelme :   labelled images (for HMM training)
+
+A. HMM
+ -feature extraction: see two examples batch files
+	create_mfcc_obs_fpboard.bat
+	create_mfcc_obs_sheet.bat
+ =HMM Model construction and training
+	Global initialization : 
+		see :baum_viterbi_init_cyg.sh
+	Isolated training	  : 
+		see : HRest_cyg.sh
+	Embedded/join training: 
+		see: HERest_cyg.sh
+	
+ -recognizing one single image full image:
+	to recognize single image all above steps must be done until  
+	the trained model already constructed
+	
+ -recognize all
+ -performance all
+
+B. Siamese
+ -training
+ -recognize one
+ -recognize all
+ -performance all
+
+
+Software requisites:
+-Microsoft Windows [Version 10.0.19045.5608]
+-CYGWIN_NT-10.0-19045 x86_64 Cygwin
+	-imageqick : mogrify
+-Octave-9.4.0
+
