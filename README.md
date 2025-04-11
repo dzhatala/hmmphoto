@@ -12,18 +12,19 @@ A. HMM
 	create_mfcc_obs_fpboard.bat
 	create_mfcc_obs_sheet.bat
  =HMM Model construction and training
-	Global initialization : 
-		see :baum_viterbi_init_cyg.sh
+	Global initialization: 
+		see baum_viterbi_init_cyg.sh
 	Isolated training	  : 
-		see : HRest_cyg.sh
+		see  HRest_cyg.sh
 	Embedded/join training: 
-		see: HERest_cyg.sh
-	final model : 
+		see HERest_cyg.sh
+	final model:
 		models/hmm30/hmmdefs
 		models/marker
 	
  -recognizing one single image full image:
 	recognize_single.sh
+
  -recognize all
  -performance all
 
@@ -39,4 +40,3 @@ Software requisites:
 -CYGWIN_NT-10.0-19045 x86_64 Cygwin
 	-imageqick 7.0.10-27 : mogrify
 -Octave-9.4.0
-
