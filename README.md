@@ -34,6 +34,6 @@ B. Siamese
 Software requisites:
 -Microsoft Windows [Version 10.0.19045.5608]
 -CYGWIN_NT-10.0-19045 x86_64 Cygwin
-	-imageqick : mogrify
+	-imageqick 7.0.10-27 : mogrify
 -Octave-9.4.0
 
