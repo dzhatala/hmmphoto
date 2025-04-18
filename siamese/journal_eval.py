@@ -88,6 +88,6 @@ output=model.predict(inputs)
 print("Time for {0} images testing: {1} seconds".format(len(targets), (time.time()-t_start)))
 
 acc,terr=zoel_test_accuracy(targets,output)
-print("Correct percentage  is  {} %, error={}".format(acc*100,terr))
+print("Correct percentage  is  {} %, error={}".format(round(acc*100,2),terr))
 
 
