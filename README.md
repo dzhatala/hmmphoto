@@ -26,7 +26,9 @@ A. HMM
 	recognize_single.sh
 
  -recognize all
+	2d_class_test_cyg.sh
  -performance all
+	
 
 B. Siamese
  -training
