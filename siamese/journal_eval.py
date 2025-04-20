@@ -50,15 +50,18 @@ from x270_lib_03 import create_batch_test, create_filepath_cat_from_htk_list
 from raptor_hambla28 import zoel_test_accuracy
 
 
-base_dir_cat="d:\\rsync\\RESEARCHS\\finger_board_det\\github_jurnal\\siamese"
-htk_train="d:\\rsync\\RESEARCHS\\finger_board_det\\python\\finger_board\\cat_train.txt"
-htk_test="d:\\rsync\\RESEARCHS\\finger_board_det\\python\\finger_board\\cat_test.txt"
+# base_dir_cat="d:\\rsync\\RESEARCHS\\finger_board_det\\github_jurnal\\siamese"
+base_dir_cat="."
+# htk_train="d:\\rsync\\RESEARCHS\\finger_board_det\\python\\finger_board\\cat_train.txt"
+htk_train="./cat_train.txt"
+# htk_test="d:\\rsync\\RESEARCHS\\finger_board_det\\python\\finger_board\\cat_test.txt"
+htk_test="./cat_test.txt"
 cat=["fp_image","answer_sheet"]
 
 
 catdir=["",""]
 for i in range(2):
-    catdir[i]="{}\\data\\smaller\\{}".format(base_dir_cat,cat[i])
+    catdir[i]="{}/data/smaller/{}".format(base_dir_cat,cat[i])
 
 cat_ptrain=create_filepath_cat_from_htk_list(htk_train,catdir)
 cat_ptest=create_filepath_cat_from_htk_list(htk_test,catdir)
@@ -67,7 +70,7 @@ imiov2_size=(498,280,3) #imageio io : w,h is reversed
 inputs,targets=input,target=create_batch_test(imiov2_size,cat_ptrain,cat_ptest)
 
 
-model_path = './siamese/weights/'
+model_path = './weights/'
 req_size=(498,280,3)
 model=h28_get_siamese_model(req_size)
 # model.summary()

@@ -6,7 +6,7 @@ dir=hmm30 #herest output
 phonems_2d=phonems_2d_class_test.lst
 dict=new_class.dict
 ftest=tmp_genobs/${project}_tb_2d_class_test.lst
-outdir=../scr_03/results  # refine the previous project
+outdir=./results  # refine the previous project
 
 if [ "$1" != "" ]; then
 	ftest="$1"
@@ -31,7 +31,7 @@ fi
 # }' $phonems > $dict
 # sync
 
-
+mkdir -p tmp_genobs results
 rm phone.net
 
 # cp phone1.dic ${dict}
@@ -47,8 +47,7 @@ marker="-H models/marker/MARKER"
 
 multi_level="-m"
 trace="-T 1"
-trace="-T 0"
-
+# trace="-T 0"
 
 #output to single file instead of directory
 # single_mlf="-i recph_class.mlf"
@@ -63,7 +62,6 @@ cmd="$HTKTOOLS_DIR/HVite  ${multi_level} -l ${outdir} ${single_mlf} ${trace} -w 
 echo $cmd ; echo "Enter [ctrl c]" ; read
 eval $cmd
 
-
 #omit -i so individual label will be created
 mkdir -p ${outdir}		#
 cmd="$HTKTOOLS_DIR/HVite ${multi_level} -l ${outdir}  -y recph ${trace} -w phone.net -C configtrain.txt  -H $dir/hmmdefs \
@@ -71,6 +69,4 @@ cmd="$HTKTOOLS_DIR/HVite ${multi_level} -l ${outdir}  -y recph ${trace} -w phone
 # echo $cmd ; eval $cmd
 duration=$SECONDS
 echo "time: $((duration / 60)) minutes and $((duration % 60)) s."
-
-
 

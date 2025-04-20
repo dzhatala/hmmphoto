@@ -24,12 +24,14 @@ A. HMM
 	
  -recognizing one single image full image:
 	recognize_single.sh
+	rec2class.sh #convert from sub label into category
 
- -recognize all
+ -recognize  photo in dir
 	2d_class_test_cyg.sh
- -performance all
+ -performance of dir. recognition
+	rec_to_cat_lab.sh #convert all .recs into cat labels to be used by higher level HResults
+	2d_class_perf-cyg.sh
 	
-
 B. Siamese
  -training
  -recognize one
