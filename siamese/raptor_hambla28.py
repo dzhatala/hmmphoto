@@ -129,7 +129,7 @@ def h28_initialize_bias(shape, dtype=None):
     """
     return np.random.normal(loc = 0.5, scale = 1e-2, size = shape)
 
-def h28_get_siamese_model(input_shape):
+def h28_get_siamese_model(input_shape, print_single_side=False):
     """
         Model architecture based on the one provided in: http://www.cs.utoronto.ca/~gkoch/files/msc-thesis.pdf
     """
@@ -163,8 +163,9 @@ def h28_get_siamese_model(input_shape):
     model.add(Dense(128, activation='sigmoid',
                    kernel_regularizer=l2(1e-3),
                    kernel_initializer=h28_initialize_weights,bias_initializer=h28_initialize_bias))
- 
-    # model.summary()
+    if print_single_side:
+        print("single side model:")
+        model.summary()
     # quit()#debug
     # Generate the encodings (feature vectors) for the two images
     encoded_l = model(left_input)
@@ -673,3 +674,52 @@ def zoel_test_accuracy(targets=None,predicted=None):
     acc=1-terr/maxlen
     # print("err", terr)
     return acc,terr
+
+def ori_get_siamese_model(input_shape,print_single_side=False):
+    """
+        original github/hambla28
+        Model architecture based on the one provided in: http://www.cs.utoronto.ca/~gkoch/files/msc-thesis.pdf
+    """
+    
+    # Define the tensors for the two input images
+    left_input = Input(input_shape)
+    right_input = Input(input_shape)
+    
+    # Convolutional Neural Network
+    model = Sequential()
+    model.add(Conv2D(64, (10,10), activation='relu', input_shape=input_shape,
+                   kernel_initializer=h28_initialize_weights, kernel_regularizer=l2(2e-4)))
+    model.add(MaxPooling2D())
+    model.add(Conv2D(128, (7,7), activation='relu',
+                     kernel_initializer=h28_initialize_weights,
+                     bias_initializer=h28_initialize_bias, kernel_regularizer=l2(2e-4)))
+    model.add(MaxPooling2D())
+    model.add(Conv2D(128, (4,4), activation='relu', kernel_initializer=h28_initialize_weights,
+                     bias_initializer=h28_initialize_bias, kernel_regularizer=l2(2e-4)))
+    model.add(MaxPooling2D())
+    model.add(Conv2D(256, (4,4), activation='relu', kernel_initializer=h28_initialize_weights,
+                     bias_initializer=h28_initialize_bias, kernel_regularizer=l2(2e-4)))
+    model.add(Flatten())
+    model.add(Dense(4096, activation='sigmoid',
+                   kernel_regularizer=l2(1e-3),
+                   kernel_initializer=h28_initialize_weights,bias_initializer=h28_initialize_bias))
+    
+    if print_single_side:
+        print("single_side twin:")
+        model.summary() 
+    # Generate the encodings (feature vectors) for the two images
+    encoded_l = model(left_input)
+    encoded_r = model(right_input)
+    
+    # Add a customized layer to compute the absolute difference between the encodings
+    L1_layer = Lambda(lambda tensors:K.abs(tensors[0] - tensors[1]))
+    L1_distance = L1_layer([encoded_l, encoded_r])
+    
+    # Add a dense layer with a sigmoid unit to generate the similarity score
+    prediction = Dense(1,activation='sigmoid',bias_initializer=initialize_bias)(L1_distance)
+    
+    # Connect the inputs with the outputs
+    siamese_net = Model(inputs=[left_input,right_input],outputs=prediction)
+    
+    # return the model
+    return siamese_net
