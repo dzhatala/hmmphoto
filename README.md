@@ -35,9 +35,8 @@ A. HMM
 B. Siamese
  -training
  -recognize one
- -recognize all
- -performance all
-
+ -recognize all and performance all
+	>py journal_eval.py
 
 Software requisites:
 -Microsoft Windows [Version 10.0.19045.5608]
