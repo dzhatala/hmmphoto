@@ -166,10 +166,10 @@ def create_batch_test(req_img_size, list_path_cat_train
     '''
     same as create_batch_train() except:
 
-    the test is put in first input, the trains is put in second input. if test sampe
-        is larger than master, just rotate the master, so all master are tested fairly.
+    the test is put in first input, the trains(master) is put in second input. if test samples
+        are larger than master, just rotate the master, so all master are tested fairly.
         
-    return inputs (list that contain 2 ndarrays), targets
+    return inputs (list that contain 2 ndarrays) and target
     
     if batch_size not specified , use ALL sample
     if batch_no is not specified, use no 0
@@ -200,6 +200,7 @@ def create_batch_test(req_img_size, list_path_cat_train
     target=[]
     train_idx=0
     test_idx=0
+    paths_fn=[]
     for test_path in list_path_cat_test:
         # print("try reading : ",test_path[1])
         image_pre = imread(test_path[1])
@@ -207,6 +208,7 @@ def create_batch_test(req_img_size, list_path_cat_train
         #
         pathinfo0=test_path
         pathinfo1=list_path_cat_train[train_idx]
+        paths_fn.append([pathinfo0,pathinfo1])
         image_info1=dict_path_img[pathinfo1[1]]
         # print("\timg number: {}   vs {}".format(image_info0[0],image_info1[0]))
         
@@ -239,7 +241,7 @@ def create_batch_test(req_img_size, list_path_cat_train
     # print(input[0].shape)
 
         
-    return input,target
+    return input,target,cat1,cat2,paths_fn
 
 def init_journal_train(base_p=None, ftrain=None,cat=None):
     '''

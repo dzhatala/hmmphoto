@@ -673,7 +673,7 @@ def zoel_test_accuracy(targets=None,predicted=None):
     terr=(rsub==False).sum()
     acc=1-terr/maxlen
     # print("err", terr)
-    return acc,terr
+    return acc,terr,rsub
 
 def ori_get_siamese_model(input_shape,print_single_side=False):
     """

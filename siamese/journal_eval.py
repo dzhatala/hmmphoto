@@ -1,9 +1,8 @@
 #CHANGES from ipynn
 
 # py -m pip show keras 
-#tested on raptor, gtx 1050 ti 4gb, keras 2.3.1, tensorflow 2.3.1
-
-
+#tested on raptor, nvidia gtx 1050 ti 4gb, keras 2.3.1, tensorflow 2.3.1
+#cuda_11.3.r11.3/compiler.29745058_0
 
 import sys
 import numpy as np
@@ -11,6 +10,11 @@ import pandas as pd
 from imageio.v2 import imread
 import pickle
 import os
+
+#disable gpu
+#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
+#enable gpu
 os.environ['TF_XLA_FLAGS'] = '--tf_xla_enable_xla_devices'
 
 from PIL import Image
@@ -39,9 +43,6 @@ from tensorflow.keras.regularizers import l2
 from tensorflow.keras import backend as K
 
 
-
-
-
 from sklearn.utils import shuffle
 
 import numpy.random as rng
@@ -67,7 +68,7 @@ cat_ptrain=create_filepath_cat_from_htk_list(htk_train,catdir)
 cat_ptest=create_filepath_cat_from_htk_list(htk_test,catdir)
 
 imiov2_size=(498,280,3) #imageio io : w,h is reversed
-inputs,targets=input,target=create_batch_test(imiov2_size,cat_ptrain,cat_ptest)
+inputs,targets,cat_1,cat_2,path_fns=create_batch_test(imiov2_size,cat_ptrain,cat_ptest)
 
 
 model_path = './weights/'
@@ -90,7 +91,26 @@ output=model.predict(inputs)
 # print(output)
 print("Time for {0} images testing: {1} seconds".format(len(targets), (time.time()-t_start)))
 
-acc,terr=zoel_test_accuracy(targets,output)
+acc,terr,rec_results=zoel_test_accuracy(targets,output)
 print("Correct percentage  is  {} %, error={}".format(round(acc*100,2),terr))
 
 
+#confusion matrix ?
+# print (rec_results)
+
+with open('results/rec_targets.pickle', 'wb') as handle:
+    pickle.dump(targets, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+
+with open('results/rec_results.pickle', 'wb') as handle:
+    pickle.dump(rec_results, handle, protocol=pickle.HIGHEST_PROTOCOL)
+   
+with open('results/cat_1.pickle', 'wb') as handle:
+    pickle.dump(cat_1, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    
+with open('results/cat_2.pickle', 'wb') as handle:
+    pickle.dump(cat_2, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+
+with open('results/path_fns.pickle', 'wb') as handle:
+    pickle.dump(path_fns, handle, protocol=pickle.HIGHEST_PROTOCOL)
