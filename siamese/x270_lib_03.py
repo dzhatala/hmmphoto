@@ -201,6 +201,7 @@ def create_batch_test(req_img_size, list_path_cat_train
     train_idx=0
     test_idx=0
     paths_fn=[]
+    cats=[]
     for test_path in list_path_cat_test:
         # print("try reading : ",test_path[1])
         image_pre = imread(test_path[1])
@@ -214,7 +215,6 @@ def create_batch_test(req_img_size, list_path_cat_train
         
         cat1=test_path[0]
         cat2=image_info1[2]
-        
         rxor= cat1^cat2
         rxor =rxor ^1
         # rxor=!rxor
@@ -223,6 +223,7 @@ def create_batch_test(req_img_size, list_path_cat_train
         input0.append(image)
         input1.append(image_info1[3])   #twin image
         target.append(rxor)
+        cats.append([cat1,cat2,rxor])
 
        
         train_idx+=1
@@ -241,7 +242,7 @@ def create_batch_test(req_img_size, list_path_cat_train
     # print(input[0].shape)
 
         
-    return input,target,cat1,cat2,paths_fn
+    return input,target,cats,paths_fn
 
 def init_journal_train(base_p=None, ftrain=None,cat=None):
     '''

@@ -68,7 +68,7 @@ cat_ptrain=create_filepath_cat_from_htk_list(htk_train,catdir)
 cat_ptest=create_filepath_cat_from_htk_list(htk_test,catdir)
 
 imiov2_size=(498,280,3) #imageio io : w,h is reversed
-inputs,targets,cat_1,cat_2,path_fns=create_batch_test(imiov2_size,cat_ptrain,cat_ptest)
+inputs,targets,cats,path_fns=create_batch_test(imiov2_size,cat_ptrain,cat_ptest)
 
 
 model_path = './weights/'
@@ -86,12 +86,12 @@ model.load_weights(os.path.join(model_path, "weights."+str(start)+".h5"))
 
 print("Predicting ... !")
 print("-------------------------------------")
-output=model.predict(inputs)
+outputs=model.predict(inputs)
 # print (targets)
-# print(output)
+# print(outputs)
 print("Time for {0} images testing: {1} seconds".format(len(targets), (time.time()-t_start)))
 
-acc,terr,rec_results=zoel_test_accuracy(targets,output)
+acc,terr,rec_results=zoel_test_accuracy(targets,outputs)
 print("Correct percentage  is  {} %, error={}".format(round(acc*100,2),terr))
 
 
@@ -102,17 +102,19 @@ with open('results/nrec_targets.pickle', 'wb') as handle:
     pickle.dump(targets, handle, protocol=pickle.HIGHEST_PROTOCOL)
     handle.close()
 
+with open('results/nrec_outputs.pickle', 'wb') as handle:
+    pickle.dump(outputs, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    handle.close()
+
+
 with open('results/nrec_results.pickle', 'wb') as handle:
     pickle.dump(rec_results, handle, protocol=pickle.HIGHEST_PROTOCOL)
     handle.close()
    
-with open('results/ncat_1.pickle', 'wb') as handle:
-    pickle.dump(cat_1, handle, protocol=pickle.HIGHEST_PROTOCOL)
+with open('results/ncats.pickle', 'wb') as handle:
+    pickle.dump(cats, handle, protocol=pickle.HIGHEST_PROTOCOL)
     handle.close()
     
-with open('results/ncat_2.pickle', 'wb') as handle:
-    pickle.dump(cat_2, handle, protocol=pickle.HIGHEST_PROTOCOL)
-    handle.close()
 
 
 with open('results/npath_fns.pickle', 'wb') as handle:
