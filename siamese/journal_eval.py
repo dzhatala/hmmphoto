@@ -98,19 +98,23 @@ print("Correct percentage  is  {} %, error={}".format(round(acc*100,2),terr))
 #confusion matrix ?
 # print (rec_results)
 
-with open('results/rec_targets.pickle', 'wb') as handle:
+with open('results/nrec_targets.pickle', 'wb') as handle:
     pickle.dump(targets, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    handle.close()
 
-
-with open('results/rec_results.pickle', 'wb') as handle:
+with open('results/nrec_results.pickle', 'wb') as handle:
     pickle.dump(rec_results, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    handle.close()
    
-with open('results/cat_1.pickle', 'wb') as handle:
+with open('results/ncat_1.pickle', 'wb') as handle:
     pickle.dump(cat_1, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    handle.close()
     
-with open('results/cat_2.pickle', 'wb') as handle:
+with open('results/ncat_2.pickle', 'wb') as handle:
     pickle.dump(cat_2, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    handle.close()
 
 
-with open('results/path_fns.pickle', 'wb') as handle:
+with open('results/npath_fns.pickle', 'wb') as handle:
     pickle.dump(path_fns, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    handle.close()
