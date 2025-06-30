@@ -28,11 +28,12 @@ print ("files/path")
 for i in indices:
     print(path_fns[i])
 
-print("input2 target")
+print("2 inputs ,1  target/label ( 1/TRUE same cat, 0/FALSE different cats)")
 for i in indices:
     print(cats_target[i])
 
-print("output/results")
+print("output/results ( 1/TRUE same cat, 0/ different cats)")
 print(outputs[indices])
+#confusion_matrix()
 # print(rec_results[indices])
 
