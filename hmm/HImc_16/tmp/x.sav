@@ -1,0 +1,114 @@
+# Created by Octave 9.4.0, Sun Jun 15 03:43:44 2025 GMT <unknown@DESKTOP-4GEAML3>
+# name: CHECK_TODO
+# type: scalar
+0
+
+
+# name: ans
+# type: scalar
+0
+
+
+# name: arg_list
+# type: cell
+# rows: 2
+# columns: 1
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 12
+.\tmp\x.jpeg
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 5
+.\tmp
+
+
+
+
+
+# name: datadir
+# type: string
+# elements: 1
+# length: 7
+../data
+
+
+# name: dir
+# type: sq_string
+# elements: 1
+# length: 5
+.\tmp
+
+
+# name: eclipse22ws
+# type: string
+# elements: 1
+# length: 70
+G:\rsync\RESEARCHS\table_detection\source_code\github\x270eclipse22_ws
+
+
+# name: ext
+# type: sq_string
+# elements: 1
+# length: 5
+.jpeg
+
+
+# name: file_path
+# type: sq_string
+# elements: 1
+# length: 68
+G:\rsync\rsync_2025_21_02\RESEARCHS\htk_cygwin\HTK-3.4.1\htk\HImCopy
+
+
+# name: i
+# type: scalar
+2
+
+
+# name: imgname
+# type: sq_string
+# elements: 1
+# length: 12
+.\tmp\x.jpeg
+
+
+# name: maven_repo
+# type: string
+# elements: 1
+# length: 28
+C:\Users\User\.m2\repository
+
+
+# name: outfname
+# type: sq_string
+# elements: 1
+# length: 1
+x
+
+
+# name: tmpdir
+# type: sq_string
+# elements: 1
+# length: 5
+.\tmp
+
+
+# name: vboxpath
+# type: string
+# elements: 1
+# length: 52
+g:\rsync\RESEARCHS\htkbook_to_c_code\matlab\voicebox
+
+
+# name: workdir
+# type: string
+# elements: 1
+# length: 1
+.
+
+

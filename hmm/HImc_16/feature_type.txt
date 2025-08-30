@@ -1,0 +1,6 @@
+feature_type.txt
+1:  16 , block number=4; 6 najmi_gray_lee + 5 + delta + 5 accell
+2:   6 , najmi_gray_lee 6
+3:  
+
+99 : unknown... set your block size ... set another options use delta, use accell ..bla-bla-b
