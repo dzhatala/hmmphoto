@@ -4,7 +4,7 @@ Artikel Bahasa Indonesia:
 
 @article{hatala2025smartphone,
   title={Smartphone Photos Categorization Using Markov Model with Limited Training Data},
-  author={Hatala, Zulkarnaen and Hudzaly, Muhammad},
+  author={Hatala, Zulkarnaen and Hudzaly, Muhammad},url = { https://e-jurnal.pnl.ac.id/JAISE/article/view/6943 },
   journal={Journal of Artificial Intelligence and Software Engineering},
   volume={5},
   number={2},
@@ -15,7 +15,7 @@ Artikel Bahasa Indonesia:
 English article:
 
 @article{Hatala_Hudzaly_2025, title={Few-shot Classification of Smartphone Photos using Hidden Markov Model and Siamese Network}, volume={7}, 
-url={https://ijeeemi.org/index.php/ijeeemi/article/view/116}, DOI={10.35882/ijeeemi.v7i3.116}, number={3}, journal={Indonesian Journal of Electronics, Electromedical Engineering, and Medical Informatics}, author={Hatala, Zulkarnaen and Hudzaly, Muhammad}, year={2025}, month={Aug.}, pages={549–558} }
+url={ https://ijeeemi.org/index.php/ijeeemi/article/view/116 }, DOI={10.35882/ijeeemi.v7i3.116}, number={3}, journal={Indonesian Journal of Electronics, Electromedical Engineering, and Medical Informatics}, author={Hatala, Zulkarnaen and Hudzaly, Muhammad}, year={2025}, month={Aug.}, pages={549–558} }
 
 
 DATA
