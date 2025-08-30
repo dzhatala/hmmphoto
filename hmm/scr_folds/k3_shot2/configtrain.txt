@@ -1,0 +1,3 @@
+# Coding parameters
+SOURCEFORMAT = HTK
+MEASURESIL=F

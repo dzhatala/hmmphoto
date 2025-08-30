@@ -1,0 +1,12 @@
+	 fold: 0 
+Categ: answer_sheet
+Categ: fpboard
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HInit -C configtrain.txt -T 0 -m 1 -M k0/hinitoutput init_6 -S k0/mfc_train_hinit.lst
+	 fold: 1 
+Categ: answer_sheet
+Categ: fpboard
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HInit -C configtrain.txt -T 0 -m 1 -M k1/hinitoutput init_6 -S k1/mfc_train_hinit.lst
+	 fold: 2 
+Categ: answer_sheet
+Categ: fpboard
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HInit -C configtrain.txt -T 0 -m 1 -M k2/hinitoutput init_6 -S k2/mfc_train_hinit.lst

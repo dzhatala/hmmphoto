@@ -1,0 +1,69 @@
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HResults -T 0 -p -L /cygdrive/g/rsync/RESEARCHS/finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs cat_2dphonems.lst k0/results/cats/\*.recph
+====================== HTK Results Analysis =======================
+  Date: Sat Aug  2 07:33:11 2025
+  Ref : >finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs
+  Rec : k0/results/cats/280_IMG-20240101-WA0047.recph
+      : k0/results/cats/280_IMG-20240101-WA0049.recph
+      : k0/results/cats/280_IMG-20240101-WA0052.recph
+      : k0/results/cats/280_IMG-20240101-WA0113.recph
+      : k0/results/cats/280_IMG-20240101-WA0136.recph
+------------------------ Overall Results --------------------------
+SENT: %Correct=87.39 [H=97, S=14, N=111]
+WORD: %Corr=87.39, Acc=87.39 [H=97, D=0, S=14, I=0, N=111]
+------------------------ Confusion Matrix -------------------------
+       a   f 
+       n   p 
+       s   _ 
+       w   i 
+       e   m  Del [ %c / %e]
+answ  43  13    0 [76.8/11.7]
+fp_i   1  54    0 [98.2/0.9]
+Ins    0   0
+===================================================================
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HResults -T 0 -p -L /cygdrive/g/rsync/RESEARCHS/finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs cat_2dphonems.lst k0/results/cats/\*.recph
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HResults -T 0 -p -L /cygdrive/g/rsync/RESEARCHS/finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs cat_2dphonems.lst k1/results/cats/\*.recph
+====================== HTK Results Analysis =======================
+  Date: Sat Aug  2 07:33:11 2025
+  Ref : >finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs
+  Rec : k1/results/cats/280_IMG-20240101-WA0047.recph
+      : k1/results/cats/280_IMG-20240101-WA0049.recph
+      : k1/results/cats/280_IMG-20240101-WA0052.recph
+      : k1/results/cats/280_IMG-20240101-WA0113.recph
+      : k1/results/cats/280_IMG-20240101-WA0136.recph
+------------------------ Overall Results --------------------------
+SENT: %Correct=98.20 [H=109, S=2, N=111]
+WORD: %Corr=98.20, Acc=98.20 [H=109, D=0, S=2, I=0, N=111]
+------------------------ Confusion Matrix -------------------------
+       a   f 
+       n   p 
+       s   _ 
+       w   i 
+       e   m  Del [ %c / %e]
+answ  56   0    0
+fp_i   2  53    0 [96.4/1.8]
+Ins    0   0
+===================================================================
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HResults -T 0 -p -L /cygdrive/g/rsync/RESEARCHS/finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs cat_2dphonems.lst k1/results/cats/\*.recph
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HResults -T 0 -p -L /cygdrive/g/rsync/RESEARCHS/finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs cat_2dphonems.lst k2/results/cats/\*.recph
+====================== HTK Results Analysis =======================
+  Date: Sat Aug  2 07:33:11 2025
+  Ref : >finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs
+  Rec : k2/results/cats/280_IMG-20240101-WA0047.recph
+      : k2/results/cats/280_IMG-20240101-WA0049.recph
+      : k2/results/cats/280_IMG-20240101-WA0052.recph
+      : k2/results/cats/280_IMG-20240101-WA0113.recph
+      : k2/results/cats/280_IMG-20240101-WA0136.recph
+------------------------ Overall Results --------------------------
+SENT: %Correct=89.19 [H=99, S=12, N=111]
+WORD: %Corr=89.19, Acc=89.19 [H=99, D=0, S=12, I=0, N=111]
+------------------------ Confusion Matrix -------------------------
+       a   f 
+       n   p 
+       s   _ 
+       w   i 
+       e   m  Del [ %c / %e]
+answ  55   1    0 [98.2/0.9]
+fp_i  11  44    0 [80.0/9.9]
+Ins    0   0
+===================================================================
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HResults -T 0 -p -L /cygdrive/g/rsync/RESEARCHS/finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs cat_2dphonems.lst k2/results/cats/\*.recph

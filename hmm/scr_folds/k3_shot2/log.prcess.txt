@@ -1,0 +1,8 @@
+Isolated training with HRest
+creating k0/hmms in k0/hmm1 ...
+	categ: answer_sheet
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_red_0 k0/hmm0/bg_red_0
+ENTER ? [CTRL+c] 
+##ALL
+counter: 1 bg_red_0
+[ENTER! CONT ] CTRL+C EXIT!

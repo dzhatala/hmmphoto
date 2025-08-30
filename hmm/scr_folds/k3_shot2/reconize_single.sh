@@ -1,0 +1,55 @@
+#recognizing single image file
+source env_cygwin.sh
+tmp=./tmp
+full_f=$1
+if [ "${full_f}" = "" ]; then
+	echo "no image to recognize"
+	exit
+fi
+
+filename_with_ext=$(basename "${full_f}")
+filename="${filename_with_ext%.*}"
+extension="${filename_with_ext##*.}"
+
+if [ "${extension^^}" == "JPG" ] || [ "${extension^^}" == "JPEG" ]\
+|| [ "${extension^^}" == "BMP" ]\
+|| [ "${extension^^}" == "PNG" ] ; then 
+	if [ ! -f ${full_f} ]; then
+		echo "Not a file: ${full_f}"
+		exit
+	fi	
+else
+	echo "${extension} is not image type"
+	exit
+fi
+
+# octave=/cygdrive/c/rps/Octave-9.4.0/mingw64/bin/octave.exe
+
+mkdir -p ${tmp}
+smaller_f="${tmp}/280x${filename_with_ext}"
+smaller_mfc="${tmp}/280x${filename}.dct"
+# smaller_rec="${tmp}/280x${filename}.rec"
+smaller_rec="${tmp}/280x${filename}.recph"
+# echo $smaller_mfc
+# exit
+cmd="cp ${full_f} ${smaller_f}"
+echo $cmd; eval $cmd
+
+cmd="mogrify -resize 280x  ${smaller_f}"
+# echo -e "${tab}exec: $cmd" ; eval $cmd
+
+# sm_dir="/cygdrive/g/rsync/RESEARCHS/finger_board_detection_image/github_jurnal/siamese/data/smaller"
+# smaller_f=${sm_dir}/answer_sheet/24-07/280_IMG-20240705-WA0081.jpeg
+mkdir -p tmp
+# hmm=	#model
+# ${octave} octave\\img2mfcc.m ${smaller_f} .\\tmp
+
+HIMCOPY=~/gRes/htk_cygwin/HTK-3.4.1/htk/HImCopy/HImCopy
+cmd="${HIMCOPY}  -C configcopy.txt -T 1 ${smaller_f} ${smaller_mfc}"
+echo $cmd; eval $cmd
+
+echo $smaller_mfc > tmp/test.lst
+./2d_class_test_cyg.sh tmp/test.lst tmp hmm30
+cmd="./rec2class.sh ${smaller_rec}"
+echo $cmd ;eval $cmd
+# do some work

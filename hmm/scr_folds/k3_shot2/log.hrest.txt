@@ -1,0 +1,484 @@
+Isolated training with HRest
+creating k0/hmms in k0/hmm1 ...
+	categ: answer_sheet
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_red_0 k0/hmm0/bg_red_0
+ENTER ? [CTRL+c] 
+##ALL
+counter: 1 bg_red_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_red_0_0 k0/hmm0/bg_red_0_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 2 bg_red_0_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_red_0_1 k0/hmm0/bg_red_0_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 3 bg_red_0_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_red_0_2 k0/hmm0/bg_red_0_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 4 bg_red_0_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_red_0_3 k0/hmm0/bg_red_0_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 5 bg_red_0_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_red_0_4 k0/hmm0/bg_red_0_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 6 bg_red_0_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_red_0_5 k0/hmm0/bg_red_0_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 7 bg_red_0_5
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_dark_0 k0/hmm0/bg_dark_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 8 bg_dark_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_dark_0_0 k0/hmm0/bg_dark_0_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 9 bg_dark_0_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_dark_0_1 k0/hmm0/bg_dark_0_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 10 bg_dark_0_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_dark_0_2 k0/hmm0/bg_dark_0_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 11 bg_dark_0_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_dark_0_3 k0/hmm0/bg_dark_0_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 12 bg_dark_0_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_dark_0_4 k0/hmm0/bg_dark_0_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 13 bg_dark_0_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_dark_0_5 k0/hmm0/bg_dark_0_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 14 bg_dark_0_5
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_white_0 k0/hmm0/bg_white_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 15 bg_white_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_white_0_0 k0/hmm0/bg_white_0_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 16 bg_white_0_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_white_0_1 k0/hmm0/bg_white_0_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 17 bg_white_0_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_white_0_2 k0/hmm0/bg_white_0_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 18 bg_white_0_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_white_0_3 k0/hmm0/bg_white_0_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 19 bg_white_0_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_white_0_4 k0/hmm0/bg_white_0_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 20 bg_white_0_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/answer_sheet/mfc_train.lst -T 0 -I k0/answer_sheet/mfc_train.mlf -M k0/hmm1 -l bg_white_0_5 k0/hmm0/bg_white_0_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 21 bg_white_0_5
+[ENTER! CONT ] CTRL+C EXIT!
+output at: k0/hmm1
+	categ: fpboard
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l bg_board k0/hmm0/bg_board
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 22 bg_board
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l bg_board_0 k0/hmm0/bg_board_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 23 bg_board_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l bg_board_1 k0/hmm0/bg_board_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 24 bg_board_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l bg_board_2 k0/hmm0/bg_board_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 25 bg_board_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l bg_board_3 k0/hmm0/bg_board_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 26 bg_board_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l bg_board_4 k0/hmm0/bg_board_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 27 bg_board_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l bg_board_5 k0/hmm0/bg_board_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 28 bg_board_5
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_logo k0/hmm0/fp_logo
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 29 fp_logo
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_logo_0 k0/hmm0/fp_logo_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 30 fp_logo_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_logo_1 k0/hmm0/fp_logo_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 31 fp_logo_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_logo_2 k0/hmm0/fp_logo_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 32 fp_logo_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_logo_3 k0/hmm0/fp_logo_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 33 fp_logo_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_logo_4 k0/hmm0/fp_logo_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 34 fp_logo_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_logo_5 k0/hmm0/fp_logo_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 35 fp_logo_5
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_screen k0/hmm0/fp_screen
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 36 fp_screen
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_screen_0 k0/hmm0/fp_screen_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 37 fp_screen_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_screen_1 k0/hmm0/fp_screen_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 38 fp_screen_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_screen_2 k0/hmm0/fp_screen_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 39 fp_screen_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_screen_3 k0/hmm0/fp_screen_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 40 fp_screen_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_screen_4 k0/hmm0/fp_screen_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 41 fp_screen_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_screen_5 k0/hmm0/fp_screen_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 42 fp_screen_5
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_key k0/hmm0/fp_key
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 43 fp_key
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_key_0 k0/hmm0/fp_key_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 44 fp_key_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_key_1 k0/hmm0/fp_key_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 45 fp_key_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_key_2 k0/hmm0/fp_key_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 46 fp_key_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_key_3 k0/hmm0/fp_key_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 47 fp_key_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_key_4 k0/hmm0/fp_key_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 48 fp_key_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k0/fpboard/mfc_train.lst -T 0 -I k0/fpboard/mfc_train.mlf -M k0/hmm1 -l fp_key_5 k0/hmm0/fp_key_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 49 fp_key_5
+[ENTER! CONT ] CTRL+C EXIT!
+output at: k0/hmm1
+creating k1/hmms in k1/hmm1 ...
+	categ: answer_sheet
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_red_0 k1/hmm0/bg_red_0
+ENTER ? [CTRL+c] 
+##ALL
+counter: 1 bg_red_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_red_0_0 k1/hmm0/bg_red_0_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 2 bg_red_0_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_red_0_1 k1/hmm0/bg_red_0_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 3 bg_red_0_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_red_0_2 k1/hmm0/bg_red_0_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 4 bg_red_0_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_red_0_3 k1/hmm0/bg_red_0_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 5 bg_red_0_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_red_0_4 k1/hmm0/bg_red_0_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 6 bg_red_0_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_red_0_5 k1/hmm0/bg_red_0_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 7 bg_red_0_5
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_dark_0 k1/hmm0/bg_dark_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 8 bg_dark_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_dark_0_0 k1/hmm0/bg_dark_0_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 9 bg_dark_0_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_dark_0_1 k1/hmm0/bg_dark_0_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 10 bg_dark_0_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_dark_0_2 k1/hmm0/bg_dark_0_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 11 bg_dark_0_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_dark_0_3 k1/hmm0/bg_dark_0_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 12 bg_dark_0_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_dark_0_4 k1/hmm0/bg_dark_0_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 13 bg_dark_0_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_dark_0_5 k1/hmm0/bg_dark_0_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 14 bg_dark_0_5
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_white_0 k1/hmm0/bg_white_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 15 bg_white_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_white_0_0 k1/hmm0/bg_white_0_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 16 bg_white_0_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_white_0_1 k1/hmm0/bg_white_0_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 17 bg_white_0_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_white_0_2 k1/hmm0/bg_white_0_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 18 bg_white_0_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_white_0_3 k1/hmm0/bg_white_0_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 19 bg_white_0_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_white_0_4 k1/hmm0/bg_white_0_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 20 bg_white_0_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/answer_sheet/mfc_train.lst -T 0 -I k1/answer_sheet/mfc_train.mlf -M k1/hmm1 -l bg_white_0_5 k1/hmm0/bg_white_0_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 21 bg_white_0_5
+[ENTER! CONT ] CTRL+C EXIT!
+output at: k1/hmm1
+	categ: fpboard
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k1/fpboard/mfc_train.lst -T 0 -I k1/fpboard/mfc_train.mlf -M k1/hmm1 -l bg_board k1/hmm0/bg_board
+ENTER ? [CTRL+c] 
+NOT found k1/hmm1/bg_board 
+output at: k1/hmm1
+creating k2/hmms in k2/hmm1 ...
+	categ: answer_sheet
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/answer_sheet/mfc_train.lst -T 0 -I k2/answer_sheet/mfc_train.mlf -M k2/hmm1 -l bg_red_0 k2/hmm0/bg_red_0
+ENTER ? [CTRL+c] 
+counter: 1 bg_red_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/answer_sheet/mfc_train.lst -T 0 -I k2/answer_sheet/mfc_train.mlf -M k2/hmm1 -l bg_red_0_0 k2/hmm0/bg_red_0_0
+ENTER ? [CTRL+c] 
+NOT found k2/hmm1/bg_red_0_0 
+output at: k2/hmm1
+	categ: fpboard
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l bg_board k2/hmm0/bg_board
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 2 bg_board
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l bg_board_0 k2/hmm0/bg_board_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 3 bg_board_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l bg_board_1 k2/hmm0/bg_board_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 4 bg_board_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l bg_board_2 k2/hmm0/bg_board_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 5 bg_board_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l bg_board_3 k2/hmm0/bg_board_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 6 bg_board_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l bg_board_4 k2/hmm0/bg_board_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 7 bg_board_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l bg_board_5 k2/hmm0/bg_board_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 8 bg_board_5
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_logo k2/hmm0/fp_logo
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 9 fp_logo
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_logo_0 k2/hmm0/fp_logo_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 10 fp_logo_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_logo_1 k2/hmm0/fp_logo_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 11 fp_logo_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_logo_2 k2/hmm0/fp_logo_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 12 fp_logo_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_logo_3 k2/hmm0/fp_logo_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 13 fp_logo_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_logo_4 k2/hmm0/fp_logo_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 14 fp_logo_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_logo_5 k2/hmm0/fp_logo_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 15 fp_logo_5
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_screen k2/hmm0/fp_screen
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 16 fp_screen
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_screen_0 k2/hmm0/fp_screen_0
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 17 fp_screen_0
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_screen_1 k2/hmm0/fp_screen_1
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 18 fp_screen_1
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_screen_2 k2/hmm0/fp_screen_2
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 19 fp_screen_2
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_screen_3 k2/hmm0/fp_screen_3
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 20 fp_screen_3
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_screen_4 k2/hmm0/fp_screen_4
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 21 fp_screen_4
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_screen_5 k2/hmm0/fp_screen_5
+ENTER ? [CTRL+c] 
+##head ignored
+counter: 22 fp_screen_5
+[ENTER! CONT ] CTRL+C EXIT!
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HRest -C configtrain.txt -i 50 -S k2/fpboard/mfc_train.lst -T 0 -I k2/fpboard/mfc_train.mlf -M k2/hmm1 -l fp_key k2/hmm0/fp_key
+ENTER ? [CTRL+c] 
+NOT found k2/hmm1/fp_key 
+output at: k2/hmm1

@@ -1,0 +1,2 @@
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HERest -C configtrain.txt -S k2/embedded_mfc_train.lst -T 3 -I k2/embedded_mfc_train.mlf -M k2/hmm30 -H hmm1/hmmdefs phonems_2d_class_train.lst
+Enter ? [CTRL+C]

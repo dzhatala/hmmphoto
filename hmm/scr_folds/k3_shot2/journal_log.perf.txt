@@ -1,0 +1,45 @@
+fold 0
+------------------------ Overall Results --------------------------
+SENT: %Correct=87.16 [H=95, S=14, N=109]
+WORD: %Corr=87.16, Acc=87.16 [H=95, D=0, S=14, I=0, N=109]
+------------------------ Confusion Matrix -------------------------
+       a   f 
+       n   p 
+       s   _ 
+       w   i 
+       e   m  Del [ %c / %e]
+answ  41  13    0 [75.9/11.9]
+fp_i   1  54    0 [98.2/0.9]
+Ins    0   0
+===================================================================
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HResults -T 3 -p -L /cygdrive/g/rsync/RESEARCHS/finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs cat_2dphonems.lst k0/results/cats/\*.recph
+fold 1
+------------------------ Overall Results --------------------------
+SENT: %Correct=96.33 [H=105, S=4, N=109]
+WORD: %Corr=96.33, Acc=96.33 [H=105, D=0, S=4, I=0, N=109]
+------------------------ Confusion Matrix -------------------------
+       a   f 
+       n   p 
+       s   _ 
+       w   i 
+       e   m  Del [ %c / %e]
+answ  54   0    0
+fp_i   4  51    0 [92.7/3.7]
+Ins    0   0
+===================================================================
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HResults -T 3 -p -L /cygdrive/g/rsync/RESEARCHS/finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs cat_2dphonems.lst k1/results/cats/\*.recph
+fold 2
+------------------------ Overall Results --------------------------
+SENT: %Correct=77.06 [H=84, S=25, N=109]
+WORD: %Corr=77.06, Acc=77.06 [H=84, D=0, S=25, I=0, N=109]
+------------------------ Confusion Matrix -------------------------
+       a   f 
+       n   p 
+       s   _ 
+       w   i 
+       e   m  Del [ %c / %e]
+answ  54   0    0
+fp_i  25  30    0 [54.5/22.9]
+Ins    0   0
+===================================================================
+/home/joesmart/gRes/htk_cygwin/HTK-3.4.1/htk/HTKTools/HResults -T 3 -p -L /cygdrive/g/rsync/RESEARCHS/finger_board_detection_image/github_jurnal/hmm/master_labels/cat_labs cat_2dphonems.lst k2/results/cats/\*.recph

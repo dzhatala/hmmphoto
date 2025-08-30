@@ -1,0 +1,67 @@
+fold 0
+load output from: ./k3_shot2/k0/results/nrec_outputs.pickle
+Indices of False: [10 14 22 29 30 42 43 46 99]
+
+files/path
+[[1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0049.jpeg'], [1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0047.jpeg']]
+[[1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0113.jpeg'], [1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0052.jpeg']]
+
+two inputs and its TRUE target
+[1, 1, 1]
+[1, 1, 1]
+
+predicted similarity output/results
+[0.6352221]
+[0.99371463]
+
+fold k=0
+[[56  1]
+ [ 8 48]]
+fold 1
+load output from: ./k3_shot2/k1/results/nrec_outputs.pickle
+Indices of False: [ 15  37  42  43  46  52  99 103 106]
+
+files/path
+[[1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0047.jpeg'], [1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0113.jpeg']]
+[[1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0049.jpeg'], [1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0168.jpeg']]
+
+two inputs and its TRUE target
+[1, 1, 1]
+[1, 1, 1]
+
+predicted similarity output/results
+[0.63109297]
+[0.98709935]
+
+fold k=1
+[[56  1]
+ [ 8 48]]
+fold 2
+load output from: ./k3_shot2/k2/results/nrec_outputs.pickle
+Indices of False: [ 10  11  14  15  19  21  29  31  33  34  39  41  43  47 102 103 110]
+
+files/path
+[[1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0047.jpeg'], [1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0152.jpeg']]
+[[1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0049.jpeg'], [1, 'y:/answer_sheet\\24-01\\280_IMG-20240101-WA0136.jpeg']]
+
+two inputs and its TRUE target
+[1, 1, 1]
+[1, 1, 1]
+
+predicted similarity output/results
+[0.9768683]
+[0.78923756]
+
+fold k=2
+[[53  4]
+ [13 43]]
+
+(3, 2, 2)
+[[[56.  1.]
+  [ 8. 48.]]
+
+ [[56.  1.]
+  [ 8. 48.]]
+
+ [[53.  4.]
+  [13. 43.]]]
