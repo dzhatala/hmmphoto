@@ -92,9 +92,18 @@ A. HMM
 
 B. Siamese
 
+install:
+
+	pythom -m pip install -r requirements.txt
+	
+
  -training
 
+	>py journal_train.py
+ 
+
  -recognize one
+
 
  -recognize all and performance all
 
