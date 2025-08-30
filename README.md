@@ -1,6 +1,7 @@
 
 
 indonesian paper:
+
 @article{hatala2025smartphone,
   title={Smartphone Photos Categorization Using Markov Model with Limited Training Data},
   author={Hatala, Zulkarnaen and Hudzaly, Muhammad},
