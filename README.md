@@ -44,23 +44,24 @@ A. HMM
 
  -feature extraction: see two examples batch files
 
-	create_mfcc_obs_fpboard.bat
-
-	create_mfcc_obs_sheet.bat
+	extract_features.sh
+	
+	see hmm/HImc_16/im2ftr.c
+	
 
  =HMM Model construction and training
 
 	Global initialization: 
 
-		see baum_viterbi_init_cyg.sh
+		see folds_baum_viterbi_init_cyg.sh
 
 	Isolated training	  : 
 
-		see  HRest_cyg.sh
+		see  folds_HRest_cyg.sh
 
 	Embedded/join training: 
 
-		see HERest_cyg.sh
+		see folds_HERest_cyg.sh
 
 	final model:
 
@@ -80,13 +81,13 @@ A. HMM
 
  -recognize  photo in dir
 
-	2d_class_test_cyg.sh
+	folds_2d_class_test_cyg.sh
 
  -performance of dir. recognition
 
-	rec_to_cat_lab.sh #convert all .recs into cat labels to be used by higher level HResults
+	folds_rec_to_cat_lab.sh #convert all .recs into cat labels to be used by higher level HResults
 
-	2d_class_perf-cyg.sh
+	folds_2d_class_perf-cyg.sh
 
 	
 
