@@ -1,3 +1,18 @@
+
+
+indonesian paper:
+@article{hatala2025smartphone,
+  title={Smartphone Photos Categorization Using Markov Model with Limited Training Data},
+  author={Hatala, Zulkarnaen and Hudzaly, Muhammad},
+  journal={Journal of Artificial Intelligence and Software Engineering},
+  volume={5},
+  number={2},
+  pages={573--579},
+  year={2025}
+}
+
+
+
 DATA
 
 
