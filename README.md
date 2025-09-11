@@ -1,16 +1,5 @@
 
 
-Artikel Bahasa Indonesia:
-
-@article{hatala2025smartphone,
-  title={Smartphone Photos Categorization Using Markov Model with Limited Training Data},
-  author={Hatala, Zulkarnaen and Hudzaly, Muhammad},url = { https://e-jurnal.pnl.ac.id/JAISE/article/view/6943 },
-  journal={Journal of Artificial Intelligence and Software Engineering},
-  volume={5},
-  number={2},
-  pages={573--579},
-  year={2025}
-}
 
 English article:
 
